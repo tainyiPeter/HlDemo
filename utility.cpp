@@ -35,7 +35,7 @@ QString CUtility::GetHlDataPath()
 {
     QString strPath = QDir::currentPath();
     qDebug()<< "currentPath:" << strPath;
-    strPath += DebugPath;
+    //strPath += DebugPath;
     strPath += HlData;
 
     return strPath;

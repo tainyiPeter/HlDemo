@@ -334,7 +334,7 @@ void MainWindow::OnLogAction()
     return;
 
     QString strPath = QDir::currentPath();
-    strPath += DebugPath;
+    //strPath += DebugPath;
     strPath += "/Log";
     QString strFile = strPath + "/" + LogFile;
     m_logParser.ParseLog(strFile);
